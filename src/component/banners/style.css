@@ -1,0 +1,31 @@
+.bannerhome{
+    width: 98%;
+}
+
+.bannerhome .box h1 {
+    z-index: 111;
+    font-size: 25px;
+    margin-left: 33px;
+    padding-right: 150px;
+    position: relative;
+    bottom: 200px;
+ 
+}
+
+.bannerhome .box .Shop_now{
+    z-index: 40;
+    width: auto;
+    color: white;
+    margin-left: 33px;
+    margin-top:33px;
+    background: green;
+    font-size: 10px;
+    
+ 
+    position: relative;
+    bottom: 199px;
+
+}
+.bannerhome .box .Shop_now:hover{
+    background-color: palegoldenrod;
+}

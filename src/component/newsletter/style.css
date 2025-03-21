@@ -1,0 +1,41 @@
+.Newsletter{
+
+
+    overflow: hidden;
+    margin-top: 20px;
+    margin: 20px;
+    
+    background-image:url("https://nest-frontend-v6.vercel.app/assets/imgs/banner/banner-10.png");
+    border-radius: 45px;
+}
+
+.Newsletter .box-news{
+    
+    width:300px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: white;
+    align-items: center;
+}
+
+.Newsletter .box-news input{
+    margin: 8px;
+    border: none;
+}
+.Newsletter .info-news{
+
+    margin-top: 40px;
+    margin-left: 40px;
+
+
+}
+
+
+.Newsletter .info-news .subscibe-btn{
+
+    background-color:green;
+    color: white;
+        
+   
+}

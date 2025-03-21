@@ -1,0 +1,42 @@
+.Productdisplay{
+    background-color: grey;
+}
+
+
+.Productdisplay row{
+
+    padding: 10px;
+}
+.Productdisplay col{
+    gap: 2px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: px;
+  }
+  
+  .grid-item {
+    /* background: lightgray; */
+    padding: 20px;
+    /* text-align: center; */
+    /* border: 1px solid #ccc; */
+  }
+  .SliderBanner2{
+
+ padding: 0px !important;
+ margin: 0px !important;
+overflow: hidden;
+  }
+  .slick-slide {
+    margin: 0 !important;  /* Remove extra spacing between slides */
+    padding: 0 !important;
+}
+.slick-list {
+    padding: 0 !important;
+}
+
+.topselling{
+  overflow: hidden;
+}

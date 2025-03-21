@@ -1,0 +1,188 @@
+.detail-page{
+    margin-left:50px;
+}
+
+.dcontainer{
+
+    width: 100%;
+}
+.priceSec .selling_p{
+      
+font-size: 50px;
+
+
+
+}
+
+.priceSec .discount{
+    text-decoration: line-through;
+}
+
+.dcontainer .productinfo h1{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.productzoom{
+    width: 100%;
+    height: 300px;
+    margin-left: 10px;
+    border: solid 1px rgba(0, 0,0,0.1);
+
+ border-radius: 10px;
+ overflow: h;
+ background-color: white;
+}
+
+
+
+.zoomSlider{
+
+    width: 100%;
+    height: auto;
+    margin: 25px;
+    background-color:white;
+
+}
+.zoomSlider .zoomimage{
+ 
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    word-spacing: 19px;
+    padding: 7px;
+}
+
+.size-selection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .size-btn {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .size-btn.active {
+    background: #28a745;
+    color: white;
+    border: 1px solid #28a745;
+  }
+  
+  .cart-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .add-to-cart {
+    background: #3BB77E;;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .product-info {
+    font-size: 14px;
+  }
+  
+  .green-text {
+    color: #28a745;
+  }
+  
+  .detail-box{
+    width: 100%;
+    height: auto;
+   
+   
+    margin-top:40px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(236, 236, 236);
+    border-image: initial;
+    border-radius: 15px;
+    padding: 40px 50px;
+    
+  }
+  .tabs {
+    display: flex;
+    gap: 10px;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .tabs button {
+    background: none;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .tabs button.active {
+    border-bottom: 3px solid green;
+    color: green;
+    font-weight: bold;
+  }
+  
+   .tab-content {
+    padding: 15px;
+    border: 1px solid #ddd;
+    background: #fff;
+  } 
+   
+  /* table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+   */
+
+   .vendorreview{
+  margin-left:10px;
+   }
+   .thelogos{
+   margin-left: 10px;
+   }
+   .take-right{
+    margin-left:20px;
+   }
+  
+    .take-right200{
+    margin-left:50px;
+
+   } 
+   .thename{
+ text-align: center;
+   }
+   .cards{
+    border: 1px solid #efe4e4;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 15px;
+   }
+   .slider-item{
+   margin: 20px;
+   }
+
+   .slider-item .progress{
+
+   margin-left: 10px;
+   width: 70%;
+   font-size: 5px;
+   }
+

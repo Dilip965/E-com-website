@@ -1,0 +1,41 @@
+.popproduct{
+width: 100%;
+margin-bottom: 50px;
+
+}
+
+.popproduct ul{
+
+    padding-right: 33px;
+}
+.popproduct ul li{
+    list-style: none;
+}
+.popproduct ul li a {
+    text-decoration: none; 
+    color: inherit; 
+    outline: none; 
+    font-size: large;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out !important;
+}
+
+
+.popproduct ul li a:hover{
+    animation: shake 0.3s ease-in-out;
+    color: rgb(255, 0, 179);
+    transform: scale(1.2);
+    rotate: 33px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: px;
+  }
+  
+  .grid-item {
+    /* background: lightgray; */
+    padding: 20px;
+    /* text-align: center; */
+    /* border: 1px solid #ccc; */
+  }

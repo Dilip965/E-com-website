@@ -1,0 +1,74 @@
+
+.listing-container{
+
+    overflow: hidden;
+}
+.breadcrumb{
+
+    width: 100%;
+    height: auto;
+   
+    background-image: url('../../assets/images/header-bg.png');
+    padding: 50px;
+    border-radius: 25px;
+    display: block;
+
+}
+.breadcrumb h1{
+
+    color: black;
+    font-size: 50px;
+} 
+
+.breadcrumb ul li{
+
+    text-decoration: none;
+    color: white;
+}
+.sidewrapper{
+    max-width: 20%;
+}
+.rightwrapper{
+
+    max-width: 80%;
+}
+.topStrip{
+    padding: 0 15px;
+}
+.topStrip p{
+   font-size: 18px;
+}
+.topStrip .btn{
+   color: #777;
+   transition: all 0.3sease 0s;
+   border-radius: 10px;
+   padding:5px 10px;
+   
+   background-color: #e3dfdf;
+   margin: 3px;
+   
+}
+.topStrip .thecontent{
+    margin-left:350px;
+    position: absolute;
+    right: 33px;
+}
+.dropdownMenu1{
+  
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: rgb(192, 184, 184);
+    position: relative;
+    top: 20px;
+    box-shadow: 0pt;
+
+}
+.dropdownMenu1 li{
+    list-style: none;
+}
+
+.dropdownMenu1 .btn1{
+    color: black;
+    font-size: 15px;
+    font-family: 100;
+}

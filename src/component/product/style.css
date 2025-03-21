@@ -1,0 +1,139 @@
+.productcontainer{
+    border: 1px solid rgba(0,0,0,0.2);
+    height: auto;
+    width: 100%;
+    padding: 15px;
+    overflow: hidden;
+   border-radius: 5px;
+}
+.productcontainer .image_wraper img {
+    transition: opacity 0.25s, transform 1.5s cubic-bezier(0, 0, 0.2, 1);
+    
+}
+.productcontainer .image_wraper .overlay{
+ padding-left: 55px;
+ position: relative;
+ bottom: 100px;
+ opacity: 0;
+ transform: scale(1);
+
+}
+.productcontainer:hover .image_wraper:hover .overlay{
+    opacity: 1;
+}
+.productcontainer .image_wraper .overlay .list{
+    background: #fff;
+    width: 75px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #BEC3C9;
+}
+.productcontainer .image_wraper .overlay .list li
+{
+ 
+    padding-right:2px;
+    border: 1px solid #e5e8ec;
+
+}
+.productcontainer .image_wraper .overlay .list li a svg{
+    font-size: 15px;
+    color: #3BB77E;
+    
+}
+.productcontainer .image_wraper .overlay .list li a svg:hover{
+    color:orange !important;
+}
+
+.productcontainer .image_wraper img:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+
+.productcontainer  .info .cat_name{
+    text-align: left;
+    font-size: 12px;
+
+
+}
+.productcontainer  .info .cat_name a{
+    text-decoration: none;
+    color: #adadad;
+}
+.productcontainer  .info .cat_name a:hover{
+color: #3BB77E;;
+}
+.productcontainer .info .tittle{
+
+    font-size: 15px;
+}
+.productcontainer .info .tittle a{
+    text-decoration: none !important;
+    color: #253D4E;
+}
+.productcontainer .info .tittle a:hover{
+
+    color: #3BB77E;;
+}
+.productcontainer .info .brand{
+
+    font-size: 13px;
+}
+.productcontainer .info .brand a{
+    color: #3BB77E;
+    text-decoration: none;
+    padding: 2px;
+    font-size: 12px;
+} 
+.productcontainer .info .price{
+    padding-top: 5px;
+} 
+
+
+.productcontainer .info .Add_to_card{
+
+    background-color: #DEF9EC;
+    padding-left: 2px;
+    font-size: 10px;
+    margin-left: 5px;
+    padding-top: 7px;
+    color: #3BB77E;
+} 
+.productcontainer .badge {
+
+    background-color: rgb(231, 17, 52) !important;
+    border-bottom-right-radius:20px ;
+    border-top-left-radius: 20px;
+}
+.productcontainer .badge.hot {
+
+    background-color: rgb(231, 17, 52) !important;
+ 
+}
+.productcontainer .badge.sale {
+
+    background-color: rgb(45, 146, 52) !important;
+ 
+}
+
+
+.productcontainer .badge.new {
+
+    background-color: rgb(106, 17, 231) !important;
+ 
+}
+
+
+.productcontainer .badge.best {
+
+    background-color: rgb(222, 215, 216) !important;
+ 
+}
+
+.tag-div{
+    height: 35px;
+}
+
+
+
+
