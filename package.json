@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-     "build": "react-scripts build && node generate-sitemap.cjs",
+     "build": "react-scripts build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
